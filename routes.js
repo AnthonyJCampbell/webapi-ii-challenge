@@ -19,15 +19,15 @@ routes.get('/api/posts', (req, res) => {
 })
 
 routes.get('/:id', (req, res) => {
-    
+  
 })
 
 routes.delete('/:id', (req, res) => {
-    
+
 })
 
 routes.put('/:id', (req, res) => {
-    
+  
 })
 
 module.exports = routes;
