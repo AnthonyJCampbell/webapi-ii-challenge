@@ -14,7 +14,7 @@ routes.get('/api/posts', (req, res) => {
       res.status(200).json(data)
     })
     .catch(err => {
-      res.status(500).json(err)
+      res.status(500).json({ error: "The posts information could not be retrieved." })
     });
 })
 
